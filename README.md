@@ -39,33 +39,21 @@ It also provides fertilizer recommendations when affected fruits are detected.
 
 ---
 
-## 📂 System Workflow
-
-Input Fruit Image
-
-↓  
-
-Image Preprocessing
-
-↓
-
-U-Net Segmentation
-
-↓
-
-Feature Extraction
-
-↓
-
-Classification
-
-↓
-
-Output Result
-
-↓
-
-Fertilizer Recommendation
+## 📂 Repository Structure
+Fruit-Ripeness-U-Net/
+├── README.md
+├── project_report.pdf
+├── architecture_diagram.png
+├── block_diagram.png
+├── images/
+│   ├── output1.png
+│   ├── output2.png
+│   └── output3.png
+├── src/
+│   ├── train.py
+│   ├── model.py
+│   └── predict.py
+└── requirements.txt
 
 ---
 
@@ -141,21 +129,31 @@ The dataset consists of:
 
 ## 📷 Project Screenshots
 
-### Block Diagram
+## Architecture Diagram
 
-![Block Diagram](images/block_diagram.png)
+![Architecture Diagram](images/architecture_diagram.jpeg)
 
-### U-Net Architecture
+## Block Diagram
 
-![U-Net Architecture](images/unet_architecture.png)
+![Block Diagram](images/block_diagram.jpeg)
 
-### Dataset Samples
+## Observation Model
 
-![Dataset Samples](images/dataset_samples.png)
+![Observation Model](images/observation_model.jpeg)
 
-### Results
+## Classification Results
 
-![Results](images/result.png)
+### Output 1 Overripe Fruit
+
+![Output 1](images/output_1.jpeg)
+
+### Output 2 - Unripe Fruit
+
+![Output 2](images/output_2.jpeg)
+
+### Output 3 - Ripe Fruit
+
+![Output 3](images/output_3.jpeg)
 
 ---
 
@@ -167,6 +165,12 @@ The dataset consists of:
 | Green Fruit | Unripe |
 | Mature Fruit | Ripened |
 | Diseased Fruit | Affected |
+
+---
+
+## 📄 Project Report
+The complete project documentation is available in:
+![Report](project_report.pdf)
 
 ---
 
